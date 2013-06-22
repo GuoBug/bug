@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-image:url(/img/right.gif);
+  background-image:url(/bug/img/right.gif);
   background-repeat:no-repeat;
   background-position:center right;
   background-attachment:fixed;
