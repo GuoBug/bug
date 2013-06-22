@@ -13,7 +13,11 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-image:url(/img/right.gif);
+  background-repeat:no-repeat;
+  background-position:center right;
+  background-attachment:fixed;
+  background-color: #80C0FF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -79,15 +83,17 @@ ul.posts span {
 }
 
 .site .header h1.title a {
+  font-size: 22pt;
   color: #a00;
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  font-size: 22pt;
+  color: #800020;
 }
 
 .site .header a.extra {
-  color: #aaa;
+  color: #000020;
   margin-left: 1em;
 }
 
@@ -135,7 +141,7 @@ ul.posts span {
 /* standard */
 #post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #40FFA0;
   padding: 0 .4em;
 }
 
