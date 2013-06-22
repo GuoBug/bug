@@ -2,7 +2,7 @@
 layout: post
 title:  "这只是开始"
 date:   2013-06-07 21:56:50
-categories:  bug/
+categories:  bug
 ---
 
 {% highlight ruby %}
