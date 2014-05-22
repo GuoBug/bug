@@ -1,2 +1,11 @@
-name: 锅巴实验站
-pygments: true
+# Site settings
+title: Guo.Bug
+email: zhanggggfd@gmail.com
+description: "一些技术向的文章,无聊的记录,还有蛋疼的东西.可能有关C/C++,HTML5,SEO,Golang,JS等我也说不清楚。"
+baseurl: ""
+url: "http://guobug.me"
+username: guobug
+
+# Build settings
+markdown: kramdown
+permalink: pretty
