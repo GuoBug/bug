@@ -1,2 +1,2 @@
-User-agent: * 
-Disallow: /static/
+User-Agent: *
+Disallow: /static/*
