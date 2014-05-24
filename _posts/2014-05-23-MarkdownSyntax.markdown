@@ -28,6 +28,13 @@ Markdown 常用语法：
 
     {% endhighlight %}
 
+    效果 
+> H1:
+> 这里为 H1 标题
+> ============
+> 这里为 H2 标题
+> ------------
+
 *  区块
     
     markdown 形式
@@ -38,5 +45,31 @@ Markdown 常用语法：
     > 段落内容
     > * 段落列表
     >
+
+    {% endhighlight %}
+
+*  列表
+    
+    markdown 形式
+
+    1. 无序列表使用星号、加号或是减号作为列表标记
+
+    {% highlight ruby %}
+
+    * 段落列表
+    等价于
+    - 列表
+    等价于 
+    + 列表
+    
+    {% endhighlight %}
+
+    2. 序列表使用数字接着一个英文句点
+
+    {% highlight ruby %}
+
+    1. 内容
+    2. 内容
+    3. 内容
     
     {% endhighlight %}
