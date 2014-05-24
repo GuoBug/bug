@@ -46,7 +46,7 @@ Markdown 常用语法：
     > * 段落列表
     >
 
-    {% endhighlight %}
+    {% endhighlight ruby %}
 
 *  列表
     
