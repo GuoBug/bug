@@ -9,12 +9,11 @@ Markdown 常用语法：
 
 *  标题
     markdown 形式
-    {% highlight ruby %}
-    这里为H1标题
-    ============
-    这里为H2标题
-    ------------
-    {% endhighlight %}
+    
+>    这里为H1标题
+>    ============
+>    这里为H2标题
+>    ------------
 
     或者
     {% highlight ruby %}
