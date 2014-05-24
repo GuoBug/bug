@@ -8,5 +8,5 @@ url: "http://guobug.me"
 username: guobug
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
