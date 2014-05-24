@@ -32,7 +32,7 @@ Markdown 常用语法：
     
     markdown 形式
 
-    {% hightlight ruby %}
+    {% highlight ruby %}
 
     > # 段落内 H1
     > 段落内容
