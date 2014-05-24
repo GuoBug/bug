@@ -25,13 +25,14 @@ Markdown 常用语法：
     ##这里为H2标题
 
     这里#可拓展到6个，也就是到 H6
+
     {% endhighlight %}
 
 *  区块
     
     markdown 形式
 
-    {% hightlight markdown %}
+    {% hightlight ruby %}
 
     > # 段落内 H1
     > 段落内容
