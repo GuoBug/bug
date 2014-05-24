@@ -39,15 +39,12 @@ Markdown 常用语法：
     
     markdown 形式
 
-    {% highlight ruby %}
-
+```
     > # 段落内 H1
     > 段落内容
     > * 段落列表
     >
-
-    {% endhighlight ruby %}
-
+```
 *  列表
     
     markdown 形式
