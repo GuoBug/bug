@@ -27,9 +27,10 @@ Markdown 常用语法：
     这里#可拓展到6个，也就是到 H6
     {% endhighlight %}
 
-* 区块
+*  区块
     
     markdown 形式
+
     {% hightlight markdown %}
 
     > # 段落内 H1
