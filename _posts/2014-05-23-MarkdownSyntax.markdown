@@ -9,7 +9,7 @@ Markdown 常用语法：
 
 *  标题
     markdown 形式
-    {% highlight %}
+    {% highlight ruby %}
     这里为H1标题
     ============
     这里为H2标题
@@ -17,7 +17,7 @@ Markdown 常用语法：
     {% endhighlight %}
 
     或者
-    {% highlight %}
+    {% highlight ruby %}
     # 这里为H1标题
     
     这里为H2标题
