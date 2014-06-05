@@ -1,11 +1,21 @@
 ---
 layout: page
-title: About
+title: Guo Bug
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+问我是谁？
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+* 什么事情都干一半，不是因为懒，而是忘了…
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+* 曾经的梦想是自己做个*机器人*，现在的梦想-->自己做个好玩的**机器人！！**
+
+* 曾经~~痴迷~~参与开源工作，
+
+* 曾经给*某小银*行做过外包
+
+* 现在给某公司做业务和技术间**拉皮条的**
+
+* 自己不甘，正研究点其他的东西
+
+* 未完待续
