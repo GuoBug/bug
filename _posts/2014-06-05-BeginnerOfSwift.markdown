@@ -9,9 +9,9 @@ categories:  bug
 这几天什么事情最吸引*程序员*眼球？无疑是[**苹果**](https://www.apple.com/cn/)的苹果全球开发者大会（WWDC）。这次 WWDC 没有一台新硬件出现，但是<STRIKE>糙</STRIKE>亮点还是非常多的。
 
 作为一个程序员出生的我也来总结下：
-首当其冲的肯定是 [ ***Swift*** ](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2) 。愿意嘛，<STRIKE>当然因为他是苹果出的</STRIKE>因为这个新语言，看上去真的比 **objective-c** 正常太多了！我敢这么说，当然不是只是因为我都看过那么几眼。我可是正式上手练过的。如果你也好奇，我会在底部放上 *Xcode6* 下载链接。
+首当其冲的肯定是 [ ***Swift*** ](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2) 。原因嘛，<STRIKE>当然因为他是苹果出的</STRIKE>因为这个新语言，看上去真的比 **objective-c** 正常太多了！我敢这么说，当然不是只是因为我都看过那么几眼。我可是正式上手练过的。如果你也好奇，我会在底部放上 *Xcode6* 下载链接。
 
-试着编写了 *Swift* 的 <STRIKE> Hello word! </STRIKE> 代码，我想说的是：说不定，这次有要重新定义开发的新模式了！ *Swift* 给我的印象和 *Golang* 的出印象非常像--- 大公司出品、简单易学、语言异常友好、可与其他语言（Objective-C 、c）混合使用。只是希望他不要像 *Golang* 一样，几年下来，推广才做到现在这样
+试着编写了 *Swift* 的 <STRIKE> Hello word! </STRIKE> 代码，我想说的是：说不定，这次要重新定义开发的模式了！ *Swift* 给我的印象和 *Golang* 的初印象非常像--- 大公司出品、简单易学、语言异常友好、可与其他语言（Objective-C 、c）混合使用。只是希望他不要像 *Golang* 一样，几年下来，推广才做到现在这样
 
 * 大公司出品一定程度上就是品质的保证，至少出了严重的 BUG 会有人出面摆平。
 * 简单易学，会让一些喜欢尝试的  <STRIKE> 程序员 </STRIKE> 开发者不用花费很多的时间，就可以转投新语言的环境。
@@ -30,6 +30,8 @@ categories:  bug
 Playgrounds
 Playgrounds make writing Swift code incredibly simple and fun. Type a line of code and the result appears immediately. If your code runs over time, for instance through a loop, you can watch its progress in the timeline assistant. The timeline displays variables in a graph, draws each step when composing a view, and can play an animated SpriteKit scene. When you’ve perfected your code in the playground, simply move that code into your project. …… 
 
+
+----
 #### 相关资源
 
 <The Swift Programming Language> iBook [click](https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11)
