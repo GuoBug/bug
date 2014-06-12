@@ -2,6 +2,8 @@
 layout: post
 title:  "Swift 入门"
 date:   2014-06-05 23:20:26
+description: "简单的Swift入门，并且写了些Swift示例，还有就是Swift使用评价，收集了一些 Swift相关的资料，还有Swift官方文档和Xcode6下载地址，还有Swift Programming Language。"
+keywords: "Swift,Swift入门,Swift资料,Swift代码示例,Swift Programming Language,Xcode6下载地址,Apple"
 categories:  bug
 ---
 

@@ -2,6 +2,8 @@
 layout: page
 title: Guo Bug
 permalink: /about/
+description: "GuoBug是谁，一些技术向的文章,无聊的记录,可能有关Swift,Mac,C/C++,HTML5,SEO,Golang,JS等我也说不清楚。"
+keywords: "GuoBug,博客,gitbug,c/c++,golang,about,html5"
 ---
 
 问我是谁？

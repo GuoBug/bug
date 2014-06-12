@@ -2,6 +2,8 @@
 layout: post
 title:  "Markdown 语法对照"
 date:   2014-05-24 14:46:42
+description: "简单的Markdown入门，Markdown语法，并且写了些Markdown示例，还有就是Markdown使用评价，收集了一些 Markdown相关的资料，还有Markdown官方文档，还有Markdown链接示例。"
+keywords: "Markdown,Markdown入门,Markdown资料,Markdown代码示例,Markdown Programming Language,Jekylle,Markdown语法"
 categories:  bug
 ---
 
