@@ -33,7 +33,8 @@ small .post_date {
 
 
 .github-icon-svg,
-.twitter-icon-svg {
+.twitter-icon-svg,
+.google-icon-svg {
   display: inline-block;
   width: 16px;
   height: 16px;
