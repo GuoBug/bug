@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="携程APP官网下载(shouji.ctrip.com),为您提供酒店最多、使用最方便的酒店预订APP；价格实时查询、优惠折扣力度最大的机票预订APP；旅游信息最丰富、服务最好的旅游APP；高铁、动车火车票及火车时刻表查询最准确的火车票APP。更多门票预订、租车、邮轮、酒店团购、攻略游记等旅游、住宿、出行信息，下载携程APP立即体验。">
 <meta name="keywords" content="酒店APP,旅游APP,火车票app,租车app,酒店预订app,邮轮app,本地游app,团队游app,旅游攻略app">
@@ -13,28 +13,17 @@ top:60%
 }
 </style>
 </head>
-<body>
-	<div style="width:100%; height:100%; z-index:1; position:absolute;left:0px"> 
-		<!--img src="sepopup.png" width="100%" style="z-index:1; position:fixed"/--> 
-		<div id="web_main" onclick="down('http://m.ctrip.com/m/c57')" style="width:100%; height:80%; position:absolute;background:url(./static/img/sepopup.png) repeat-x 0 0;background-size:100%;">
-			<img id="btn" src="./static/img/btn_continue.png" onclick="javascript: window.location.href='http://m.ctrip.com/html5/?sourceid=1833&allianceid=5377&sid=449938';" align="center" style="width:65% ;position: absolute;top: 85%;left: 17.5%;" >
-		</div>
-		<div id="web_btn" align="center" style="width:100%; height:20%; position: relative;background:url(./static/img/ban.gif) repeat-x 0 0;background-size:100%;top: 80%;border:solid 2px #1C86EE;left:-2px;">
-		</div>
-	</div>
 
-	<script type="text/javascript">
-	function down(url){
-		try{
-			var elemIF = document.createElement("iframe");  
-			elemIF.src = url;  
-			elemIF.style.display = "none";
-			document.body.appendChild(elemIF);
-		}catch(e){
-
-		}
-	}
-	</script>
+<body style="margin:0px">
+    <div style="width:100%; height:100%; z-index:1; position:absolute;left:0px">
+       <!--img src="sepopup.png" width="100%" style="z-index:1; position:fixed"/-->
+       <div id="web_main" style="width:100%; height:100%; position:absolute;background:url(static/img/sepopup.png) repeat-x 0 0;background-size:100%;background-position: center;">
+           <div style="position: absolute;top: 50%;height: 50%;width: 100%;">
+           <a id="phone" href="tel:4009203886" style="position: absolute;width: 48%;height: 9%;bottom: 68%;right: 25%;"></a>
+              <a id="exit" href="http://m.ctrip.com/html5/?sourceid=9064&amp;allianceid=5377&amp;sid=449938&amp;ouid=Lvping_h5&amp;openapp=3&amp;downapp=1&amp;sepopup=1" style="position: absolute;width: 48%;height: 9%;bottom: 53%;right: 25%;"></a>
+           </div>
+       </div>
+    </div>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
