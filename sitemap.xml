@@ -11,4 +11,10 @@ layout: none
     <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc> 
   </url>
   {% endfor %}
+  <url> 
+    <loc>{{ page.url | prepend: page.baseurl | prepend: page.url }}</loc> 
+  </url>
+  <url> 
+    <loc>http://guobug.me</loc> 
+  </url>
 </urlset>
