@@ -12,7 +12,7 @@ layout: none
   </url>
   {% endfor %}
   <url> 
-    <loc>{{ page.url | prepend: page.baseurl | prepend: page.url }}</loc> 
+    <loc>{{ post.url | prepend: page.url }}</loc> 
   </url>
   <url> 
     <loc>http://guobug.me</loc> 
