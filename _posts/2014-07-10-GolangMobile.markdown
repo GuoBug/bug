@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "用 Golang 写爬虫和分析程序"
+title:  "用Golang写爬虫和分析程序"
 date:   2014-07-10 23:19:55
-description: ""
-keywords: ""
+description: "用golang写蜘蛛程序，用golang写蜘蛛爬取sitemap，并解析xml，取出URL，解析出参数，赋值给 golang变量，go语言蜘蛛分析程序，go语言"
+keywords: "golang,go语言,蜘蛛,爬虫,go语言分析程序,golang程序,go语言解析xml,golang 解析XML"
 categories:  Golang
 ---
 
@@ -125,4 +125,6 @@ for _, v := range v.Loc {
 
 * 之后就是将上述内容写入文件了，也就没什么难点了。唯一要注意的，sitemap 文件是有大小限制的，单个文件最大不能超10M。
 
+其他也就没什么了，好奇了，这种通过数据库分分钟出来的东西，那帮人为何就不做呢？真是无语。
 
+（over）

@@ -4,7 +4,7 @@ title:  " Pi 上的 Pidora 中文化"
 date:   2014-07-02 22:51:27
 description: "Raspberry Pi 上的 Pidora 中文化，如何使用 Raspberry Pi，如何使用 Pidora，将Pidora汉化的方法，在Pidora上安装中文，从Raspberry Pi 官方下载安装中文。"
 keywords: "Raspberry Pi,Raspberry Pi 中文,Raspberry Pi 汉化,Pidora,Pidora汉化,Pidora中文,Pidora Pi"
-categories:  bug
+categories:  Raspberry Pi 
 ---
 
 1. 安裝中文字形
