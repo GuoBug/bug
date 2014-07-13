@@ -8,20 +8,30 @@ categories:  Raspberry-Pi
 ---
 
 1. 安裝中文字形
-# yum install cjkuni-ukai-fonts cjkuni-uming-fonts taipeifonts wqy-bitmap-fonts wqy-microhei-fonts
+
+```# yum install cjkuni-ukai-fonts cjkuni-uming-fonts taipeifonts wqy-bitmap-fonts wqy-microhei-fonts
+```
 
 2. 安裝中文輸入法 gcin 或 scim
+```
 # yum install gcin
+```
 或
+```
 # yum install scim scim-tables scim-tables-chinese scim-tables-chinese-extra scim-array scim-chewing
-
+```
 3. 修改中文環境設定
+```
 # vi /etc/sysconfig/i18n
+```
 把
+```
 LANG="en_US.UTF-8"
+```
 改成
+```
 LANG="zh_TW.UTF-8"
-
+```
 4. 重新開機
 
 功能表已改成中文
