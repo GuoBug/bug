@@ -67,7 +67,7 @@
 
             var browser;
 
-            if (/tctravel/.test(ua)) {
+            if (/ctrip/.test(ua)) {
                 if (app_uri == "0") {
                     redirected = false;
                 }
@@ -145,7 +145,7 @@
                         }, 100);
                     }
                     else {
-                        if (/tctravel/.test(ua)) {
+                        if (/ctrip/.test(ua)) {
                             setTimeout(function redirect1() {
                                 window.location = app_uri;
                             }, 600);
