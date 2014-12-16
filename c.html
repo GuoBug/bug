@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/">
+    </noscript>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <style type="text/css">
+        html, body { -webkit-tap-highlight-color: transparent; -webkit-user-select: none; font: 14px/1.5 arial,\5b8b\4f53; height: 100%; }
+        * { margin: 0; padding: 0; }
+        .content { max-width:640px; margin:0 auto; position:relative; }
+        #bgimg{ display:block; width:100%;}
+        #header{ position:absolute; top:10px; right:25px; -webkit-animation:share_hand 500ms infinite;-moz-animation:share_hand 500ms infinite;-ms-animation:share_hand 500ms infinite;animation:share_hand 500ms infinite;-webkit-transform-origin: right top;-moz-transform-origin: right top;-ms-transform-origin: right top;transform-origin: right top;   }
+        @-webkit-keyframes share_hand
+        {
+	        0%    { -webkit-transform:translate3d(0,0,0); }
+	        60%   { -webkit-transform:translate3d(10px,-10px,0) scale(0.8); }
+ 	        100%  { -webkit-transform:translate3d(0,0,0); }
+        }
+        @-moz-keyframes share_hand 
+        {
+	        0%    { -moz-transform:translate3d(0,0,0); }
+	        60%   { -moz-transform:translate3d(10px,-10px,0) scale(0.8); }
+ 	        100%  { -moz-transform:translate3d(0,0,0); }
+        }
+        @-ms-keyframes share_hand 
+        {
+	        0%    { -ms-transform:translate3d(0,0,0); }
+	        60%   { -ms-transform:translate3d(10px,-10px,0) scale(0.8); }
+ 	        100%  {-ms-transform:translate3d(0,0,0); }
+        }
+       @keyframes share_hand 
+        {
+	        0%    { transform:translate3d(0,0,0); }
+	        60%   { transform:translate3d(10px,-10px,0) scale(0.8);}
+ 	        100%  { transform:translate3d(0,0,0);}
+        }
+    </style>
+</head>
+<body>
+    <iframe id="frmHid1" frameborder="no" src="" width="1" height="1"></iframe>
+    <div class="content">
+    </div>
+    <script language="javascript">
+
+        (function () {
+
+            var app_uri = null;
+            var redirected = false;
+            var dy = false;
+            var downurl = "http://m.ctrip.com/market/download.aspx?from=c180";
+            var actiontype = "0";
+            app_uri = "ctrip://wireless/h5?url=aHR0cDovL20uY3RyaXAuY29tL2h0bWw1L3RpY2tldC9kZXN0L3QxNDEwOTMxLmh0bWw=&type=2";
+            function download() {
+                document.all.frmHid1.src = "";
+                document.all.frmHid1.src = app_uri;
+            }
+            function redirect() {
+                if (redirected) return;
+                redirected = true;
+                location.href = href;
+            }
+            var href = '/';
+            var search = location.search;
+            var ua = navigator.userAgent.toLowerCase();
+
+            var browser;
+
+            if (/tctravel/.test(ua)) {
+                if (app_uri == "0") {
+                    redirected = false;
+                }
+                else {
+                    redirected = true;
+                }
+
+            }
+            if (/iphone|ipad|ipod/.test(ua)) {
+                browser = ' Safari ';
+                href = downurl;
+                dy = true;
+
+            } else if (/android/.test(ua)) {
+                browser = '浏览器';
+                href = downurl;
+                dy = true;
+
+            } else if (/windows phone|blackberry/.test(ua)) {
+                alert('抱歉，暂不支持您的系统');
+                location.href = '/';
+            } else {
+                location.href = '/';
+            }
+            var tishi = "t";
+            if (/iphone/.test(ua)) {
+                tishi = "f";
+            }
+            if (/iphone/.test(ua)) {
+                if (app_uri == "0")
+                { }
+                else { tishi = "t"; }
+            }
+            if (/iphoneEnterprise/.test(downurl)) {
+                tishi = "t";
+            }
+            if (browser && tishi == "t" && actiontype == "0" && /micromessenger/.test(ua)) {
+                //                var content = document.querySelector(".content");
+                //                var header = document.getElementById("header");
+
+                //                var bgimg = document.createElement("img");
+                //                if ((/iphone/i).test(ua) && !(/android/i).test(ua)) { bgimg.src = "http://m.17u.cn/client/Style/images/iphone_bg.png?v=2"; }
+                //                else { bgimg.src = "http://m.17u.cn/client/Style/images/android_bg.png?v=2"; }
+                //                bgimg.id = "bgimg";
+                //                content.appendChild(bgimg);
+
+                //                var header = document.createElement("img");
+                //                header.src = "http://m.17u.cn/client/Style/images/header.png";
+                //                header.id = "header";
+                //                content.appendChild(header);
+
+                //                window.onresize = function () {
+                //                    var scale = content.clientWidth / 640;
+                //                    header.style.width = 158 * scale + "px";
+                //                };
+                //                window.onresize();
+                //                document.ontouchmove = function (e) { e.preventDefault(); };
+                redirected = false;
+                dy = true;
+            }
+
+            if (browser && tishi == "f" && actiontype == "0" && /micromessenger/.test(ua)) {
+                redirected = false;
+                dy = true;
+            }
+            if (dy) {
+
+                try {
+                    if (app_uri == "0") {
+
+                        setTimeout(function redirect() {
+                            if (redirected) return;
+                            redirected = true;
+                            location.href = href;
+                        }, 100);
+                    }
+                    else {
+                        if (/tctravel/.test(ua)) {
+                            setTimeout(function redirect1() {
+                                window.location = app_uri;
+                            }, 600);
+                        } else {
+                            download();
+                            setTimeout(redirect, 1000);
+                        }
+                    }
+                }
+                catch (e) {
+                }
+
+            }
+        })()
+    </script>
+</body>
+</html>
